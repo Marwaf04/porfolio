@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style_porfolio.css" />
+  <link rel="stylesheet" href="styleimage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav id="navigation-desktop">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div>
+        <ul class="nav-link">
+            <li><a href="porfolio.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </div>
+  </nav>
+
+  <nav id="navigation-phone">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div class="hamburger-menu">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="porfolio.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About me</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Project</a></li>
+        <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <div id="profile">
+    <div class="profile-text">
+      <p class="profile-text-p1">Hi, I'm</p>
+      <h1 class="title">Marwa Fekri</h1>
+      <p class="profile-text-p2">
+        A passionate Software Engineering student driven by curiosity and creativity.
+        I enjoy turning ideas into functional code and exploring how technology can create real impact.
+      </p>
+
+      <div class="btn-container">
+        <button class="btn btn-color2" onclick="window.open('./resources/CV.pdf')">Download CV</button>
+        <button class="btn btn-color1" onclick="location.href='contact.html'">Contact me</button>
+      </div>
+
+      <div id="social-link">
+        <img src="./resources/111.png" alt="My LinkedIn profile" class="icon" onclick="window.open('https://www.linkedin.com/in/marwa-fekri-3b45592b1', '_blank')" />
+        <img src="./resources/github.png" alt="My GitHub profile" class="icon" onclick="window.open('https://github.com', '_blank')" />
+      </div>
+    </div>
+</div>

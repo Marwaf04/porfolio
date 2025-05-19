@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style_porfolio.css" />
+  <link rel="stylesheet" href="styleimage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <nav id="navigation-desktop">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div>
+      <ul class="nav-link">
+        <li><a href="porfolio.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="navigation-phone">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div class="hamburger-menu">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="porfolio.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About me</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Project</a></li>
+        <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="skills">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills & Tools</h1>
+  
+    <div class="skills-block">
+  
+      <!-- Markup Languages -->
+      <div class="skill-category">
+        <h3 class="skill-heading">Markup Languages</h3>
+        <div class="skill-list">
+          <span class="skill-pill">HTML</span>
+          <span class="skill-pill">XML</span>
+          <span class="skill-pill">LaTeX</span>
+        </div>
+      </div>
+  
+      <!-- Programming Languages -->
+      <div class="skill-category">
+        <h3 class="skill-heading">Programming Languages</h3>
+        <div class="skill-list">
+          <span class="skill-pill">Java</span>
+          <span class="skill-pill">Python</span>
+          <span class="skill-pill">PHP</span>
+          <span class="skill-pill">JavaScript</span>
+          <span class="skill-pill">Clojure</span>
+          <span class="skill-pill">Erlang</span>
+        </div>
+      </div>
+  
+      <!-- Databases -->
+      <div class="skill-category">
+        <h3 class="skill-heading">Databases</h3>
+        <div class="skill-list">
+          <span class="skill-pill">SQL</span>
+          <span class="skill-pill">MongoDB</span>
+          <span class="skill-pill">Firebase</span>
+        </div>
+      </div>
+  
+      <!-- Frameworks & Libraries -->
+      <div class="skill-category">
+        <h3 class="skill-heading">Frameworks & Libraries</h3>
+        <div class="skill-list">
+          <span class="skill-pill">React</span>
+          <span class="skill-pill">Node.js</span>
+          
+        </div>
+      </div>
+  
+      <!-- Tools & Platforms -->
+      <div class="skill-category">
+        <h3 class="skill-heading">Tools & Platforms</h3>
+        <div class="skill-list">
+          <span class="skill-pill">Eclipse</span>
+          <span class="skill-pill">VS Code</span>
+          <span class="skill-pill">Overleaf</span>
+          <span class="skill-pill">XAMPP</span>
+          <span class="skill-pill">GIT</span>
+          <span class="skill-pill">GitHub</span>
+        </div>
+      </div>
+  
+    </div>
+  </section>
+  

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style_porfolio.css" />
+  <link rel="stylesheet" href="styleimage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+<body>
+
+  <nav id="navigation-desktop">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div>
+      <ul class="nav-link">
+        <li><a href="porfolio.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="navigation-phone">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div class="hamburger-menu">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="porfolio.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About me</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Project</a></li>
+        <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="about">
+    <div class="about-section">
+      <h1 class="about-title">About Me</h1>
+      <p class="about-description">
+        I’m Marwa, a Software Engineering student at Concordia University with a passion for solving real-world problems through code.
+        I enjoy spending time in cafés, brainstorming ideas and refining projects. I’m always learning and love bringing thoughtful design and logic together in everything I build.
+      </p>
+      
+  
+      <div class="about-grid">
+        <div class="about-card">
+          <i class="fas fa-user-graduate icon"></i>
+          <h3>Education</h3>
+          <p>Software Engineering Student at Concordia University</p>
+        </div>
+  
+        <div class="about-card">
+          <i class="fas fa-bullseye icon"></i>
+          <h3>Current Goal</h3>
+          <p>Become a full-stack developer who bridges design and backend logic with ease.</p>
+        </div>
+  
+        <div class="about-card">
+          <i class="fas fa-coffee icon"></i>
+          <h3>What Inspires Me</h3>
+          <p>Quiet moments in cozy cafés. Good UI. Creative problem-solving. Clear, elegant code.</p>
+        </div>
+  
+       
+      </div>
+  
+      <p class="about-quote">“Code with clarity. Build with purpose.”</p>
+    </div>
+  </section>
+  
+  

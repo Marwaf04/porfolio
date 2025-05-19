@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style_porfolio.css" />
+  <link rel="stylesheet" href="styleimage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+  <nav id="navigation-desktop">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div>
+        <ul class="nav-link">
+            <li><a href="porfolio.html">Home</a></li>
+            <li><a href="about.html">About me</a></li>
+            <li><a href="project.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+    </div>
+  </nav>
+ 
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+
+    <div class="projects-container">
+
+        <!-- Project 1 -->
+    <div class="project-card">
+    <div class="project-image">
+      <img src="./resources/do.png" alt="To-Do List App" />
+    </div>
+    <h3 class="project-title">Smart To-Do List</h3>
+    <p class="project-status">In Progress</p>
+    <span class="project-tech">React, Node.js, MongoDB</span>
+    <p class="project-description">
+      A sleek, interactive to-do list app with user login, task deadlines, and reminder features. Designed to boost productivity and store tasks reliably in a cloud database.
+    </p>
+    <div class="project-btn-group">
+      <button class="project-btn" onclick="window.open('in-progress.html')">GitHub</button>
+      <button class="project-btn" onclick="window.open('in-progress.html')">Live Demo</button>
+    </div>
+  </div>
+  
+      <!-- Project 1 -->
+    <div class="project-card">
+    <div class="project-image">
+      <img src="./resources/67.png" alt="Launch IT Website" />
+    </div>
+    <h3 class="project-title">Launch IT Website</h3>
+    <p class="project-status">Completed</p>
+    <span class="project-tech">PHP, React, JavaScript, MySQL</span>
+    <p class="project-description">
+      Full-stack e-commerce platform with user authentication, product management, and real-time order tracking. Built a normalized MySQL database and deployed locally with XAMPP.
+    </p>
+    <div class="project-btn-group">
+      <button class="project-btn" onclick="window.open('https://github.com/')">GitHub</button>
+      <button class="project-btn" onclick="window.open('https://example.com')">Live Demo</button>
+    </div>
+  </div>
+  
+
+
+      <!-- Project 3 -->
+      <div class="project-card">
+        <div class="project-image">
+          <i class="fa-solid fa-calculator"></i>
+        </div>
+        <h3 class="project-title">Interactive Calculator</h3>
+        <p class="project-status">Completed</p>
+       <span class="project-tech">JavaScript, HTML, CSS</span>
+      <p class="project-description">
+      A responsive web calculator app with real-time input handling, display formatting, and input validation for a smooth and intuitive user experience.
+     </p>
+     <div class="project-btn-group">
+    <button class="project-btn" onclick="window.open('https://github.com/')">GitHub</button>
+    <button class="project-btn" onclick="window.open('https://example.com')">Live Demo</button>
+  </div>
+</div>
+
+
+      <!-- Dummy fillers -->
+      <div class="project-card invisible"></div>
+      <div class="project-card invisible"></div>
+    </div>
+  </section>
+  
+
+</body>
+

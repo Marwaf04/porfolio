@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style_porfolio.css" />
+  <link rel="stylesheet" href="styleimage.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+  <nav id="navigation-desktop">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div>
+      <ul class="nav-link">
+        <li><a href="porfolio.html">Home</a></li>
+        <li><a href="about.html">About me</a></li>
+        <li><a href="project.html">Projects</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="navigation-phone">
+    <div class="name">Port<span class="highlight">folio</span></div>
+    <div class="hamburger-menu">
+      <div class="menu-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="porfolio.html" onclick="toggleMenu()">Home</a></li>
+        <li><a href="about.html" onclick="toggleMenu()">About me</a></li>
+        <li><a href="project.html" onclick="toggleMenu()">Project</a></li>
+        <li><a href="skills.html" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="contact.html" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section class="contact">
+    <div class="content">
+      <h2>Contact Me</h2>
+    </div>
+  
+    <div class="container">
+      <!-- LEFT SIDE -->
+      <div class="info-side">
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="text">
+            <h3>Phone Number</h3>
+            <p>438-622-6552</p>
+          </div>
+        </div>
+  
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="text">
+            <h3>Email</h3>
+            <p><a href="mailto:marwaf04@gmail.com">marwaf04@gmail.com</a></p>
+          </div>
+        </div>
+  
+        <div class="box">
+          <div class="icon">
+            <i class="fa-solid fa-share-nodes"></i>
+          </div>
+          <div class="text">
+            <h3>Socials</h3>
+            <div id="social-link">
+              <img src="./resources/111.png" alt="LinkedIn" class="icon"
+                onclick="window.open('https://www.linkedin.com/in/marwa-fekri-3b45592b1', '_blank')" />
+              <img src="./resources/github.png" alt="GitHub" class="icon"
+                onclick="window.open('https://github.com', '_blank')" />
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- RIGHT SIDE FORM -->
+      <form class="form-side contact-form" action="https://formspree.io/f/xqaqnjnb" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
