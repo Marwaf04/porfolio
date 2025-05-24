@@ -28,10 +28,10 @@ html {
   }
   
   nav {
-    justify-content: space-between; /* or space-around if you prefer */
+    justify-content: space-between; 
     align-items: center;
-    height: auto; /* more flexible than fixed vh */
-    padding: 2rem 2rem 2rem 2rem;  /* top: 1rem, bottom: 0 */
+    height: auto; 
+    padding: 2rem 2rem 2rem 2rem;  
   }
   
   
@@ -637,7 +637,7 @@ html {
   box-shadow: 0 12px 40px rgba(31, 38, 135, 0.25);
 }
 
-/* RIGHT SIDE — Form (clean and wider) */
+
 .contact .form-side {
   flex: 1.5;
   padding-left: 2rem;
@@ -768,7 +768,7 @@ html {
     line-height: 1.6;
   }
   
-  /* Quote at bottom */
+
   .about-quote {
     font-style: italic;
     font-size: 1.1rem;
